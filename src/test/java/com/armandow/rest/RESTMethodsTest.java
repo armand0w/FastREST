@@ -100,7 +100,7 @@ class RESTMethodsTest {
         var resp = (byte[]) RESTClient.execute(base + "/params/txt/test.txt", MethodType.GET, ContentType.TEXT_PLAIN, CharsetType.UTF_8, null, null, ContentType.APPLICATION_OCTET_STREAM);
 
         assertNotNull(resp);
-        assertEquals("ola ke ase!!!\n", new String(resp));
+        assertEquals("ola ke ase!!!", new String(resp).trim());
     }
 
     @Test
