@@ -20,12 +20,12 @@
         <json.version>20250517</json.version>
         <jacoco.version>0.8.13</jacoco.version>
         <slf4j.version>2.0.17</slf4j.version>
-        <lombok.version>1.18.38</lombok.version>
-        <junit.version>5.13.2</junit.version>
-        <tomcat.version>11.0.8</tomcat.version>
+        <lombok.version>1.18.42</lombok.version>
+        <junit.version>5.13.4</junit.version>
+        <tomcat.version>11.0.11</tomcat.version>
 
-        <shade-plugin.version>3.6.0</shade-plugin.version>
-        <surefire-plugin.version>3.5.3</surefire-plugin.version>
+        <shade-plugin.version>3.6.1</shade-plugin.version>
+        <surefire-plugin.version>3.5.4</surefire-plugin.version>
         <maven-compile-plugin.version>3.14.0</maven-compile-plugin.version>
     </properties>
 
